@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+   width: 100%;
+   height: 100vh;
+   background-image: url(background.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.logo{
+    font-size: 40px;
+    color: brown;
+    top: 10px;
+    left: 20px;
+    position: absolute;
+}
+.logo span{
+    font-size: 30px;
+    color: darkcyan;
+}
+.card{
+    width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(151, 151, 151, 0.555);
+}
+.card img{
+    width: 140px;
+    border-radius: 20%;
+}
+.card h2{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.card p{
+    font-size: 18px;
+    margin: 10px auto;
+}
+.links img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transform: background 0.2s;
+}
+.links img:hover{
+    background: rgb(211, 99, 47);
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    background: rgb(241, 239, 237);
+    color: #2d3bb9;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+
+}
+.btn:hover{
+    text-transform: none;
+    text-decoration: none;
+    display: inline-block;
+    background: #f56e6e;
+}
